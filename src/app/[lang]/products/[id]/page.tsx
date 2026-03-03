@@ -39,7 +39,7 @@ export default async function ProductPage({
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Image Gallery / Main Image */}
           <div className="flex flex-col gap-4">
-            <div className="aspect-[4/3] rounded-3xl overflow-hidden bg-white/5 border border-white/10 group relative shadow-2xl shadow-black/20">
+            <div className="aspect-[3/4] lg:aspect-[4/5] rounded-3xl overflow-hidden bg-white/5 border border-white/10 group relative shadow-2xl shadow-black/20">
               {product.image ? (
                 <Image
                   src={product.image}
