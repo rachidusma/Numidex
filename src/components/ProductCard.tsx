@@ -14,7 +14,7 @@ export default function ProductCard({ product, dictionary, lang }: ProductCardPr
   
   return (
     <div className="group flex flex-col overflow-hidden rounded-xl border border-border-dark bg-neutral-dark/40 transition-all hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/10">
-      <div className="relative aspect-[4/3] overflow-hidden">
+      <div className="relative aspect-square overflow-hidden">
         {product.image ? (
           <Image
             src={product.image}
