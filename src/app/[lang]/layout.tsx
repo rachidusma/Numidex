@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '../globals.css'
 import { i18n } from '../../i18n-config'
+import VisitTracker from '@/components/VisitTracker'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
       </head>
       <body className={`${inter.className} bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-300`}>
+        <VisitTracker />
         {children}
       </body>
     </html>

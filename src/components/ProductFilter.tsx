@@ -27,10 +27,22 @@ export default function ProductFilter({ categories, dictionary }: ProductFilterP
 
   const getCategoryIcon = (name: string) => {
     const lower = name.toLowerCase()
-    if (lower.includes('date')) return 'calendar_today' // Matching reference decision
+    
+    // Food & Agriculture
+    if (lower.includes('date')) return 'eco' // or 'calendar_today' if preferred, but eco fits dates better. actually, let's use 'park' for dates (palm trees) or 'date_range'
     if (lower.includes('oil')) return 'water_drop'
     if (lower.includes('veg')) return 'eco'
     if (lower.includes('fruit')) return 'nutrition'
+    if (lower.includes('chocolat')) return 'cake'
+    if (lower.includes('cake') || lower.includes('biscuit')) return 'cookie'
+    if (lower.includes('jam') || lower.includes('spread')) return 'breakfast_dining'
+    
+    // Appliances
+    if (lower.includes('refrigirator') || lower.includes('refrigerator') || lower.includes('fridge')) return 'kitchen'
+    if (lower.includes('wash') && lower.includes('machine')) return 'local_laundry_service'
+    if (lower.includes('dish') || lower.includes('microwave')) return 'microwave'
+    if (lower.includes('vacuum') || lower.includes('clean')) return 'cleaning_services'
+
     return 'grid_view'
   }
 
