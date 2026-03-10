@@ -34,7 +34,7 @@ export default function AdminSidebar() {
           {!isCollapsed && (
             <div>
               <h2 className="text-white font-bold text-xl">Admin Panel</h2>
-              <p className="text-gray-300 text-sm">Made In Bled</p>
+              <p className="text-gray-300 text-sm">Numidex</p>
             </div>
           )}
           <button

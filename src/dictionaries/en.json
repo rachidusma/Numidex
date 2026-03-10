@@ -58,7 +58,7 @@
         "history": {
             "title": "Our Journey Towards 2026",
             "subtitle": "The Evolution",
-            "description": "Founded with a passion for Algerian agriculture, Made in Bled Trading has rapidly expanded its footprint. Our upcoming \"2026 Edition\" marks a significant milestone in our expansion into high-tech sustainable packaging and direct-to-retail supply chains in Europe and the Americas.",
+            "description": "Founded with a passion for Algerian agriculture, Numidex has rapidly expanded its footprint. Our upcoming \"2026 Edition\" marks a significant milestone in our expansion into high-tech sustainable packaging and direct-to-retail supply chains in Europe and the Americas.",
             "timeline": [
                 {
                     "year": "2021",
@@ -100,7 +100,7 @@
     },
   "products": {
     "title": "Our Product Categories",
-    "description": "MADE IN BLED TRADING is an Algerian company specializing in the export of agricultural and agri-food products, specifically fruits, vegetables, and dates. Our ambition is to connect Algerian expertise to international markets through responsible, structured, and professional trade.",
+    "description": "NUMIDEX is an Algerian company specializing in the export of agricultural and agri-food products, specifically fruits, vegetables, and dates. Our ambition is to connect Algerian expertise to international markets through responsible, structured, and professional trade.",
     "discover_more": "Discover More",
     "showing_of": "Showing {count} of {total} collections",
     "fruits": "Fruits",
@@ -112,7 +112,7 @@
     "olive_oil": "Olive Oil"
   },
   "why_us": {
-    "title": "Why Choose MADE IN BLED TRADING?",
+    "title": "Why Choose NUMIDEX?",
     "quality": {
       "title": "Quality Guarantee",
       "desc": "International certification standards ensuring premium taste and safety."
@@ -240,7 +240,7 @@
     "locations": {
         "main_hub": "Main Export Hub, Industrial Zone, Algiers, Algeria"
     },
-    "copyright": "© {year} Made in Bled Trading. All Rights Reserved. 2026 Edition Ready.",
+    "copyright": "© {year} Numidex. All Rights Reserved. 2026 Edition Ready.",
     "privacy_policy": "Privacy Policy",
     "export_terms": "Export Terms"
   },
@@ -248,7 +248,7 @@
       "edition_release": "Edition Release",
       "benchmark_trust": "The Benchmark of Trust",
       "title": "Algeria - Distribution & Export Experts",
-      "description": "At Made in Bled Trading, we are more than just exporters; we are the strategic link between the fertile landscapes of Algeria and the demanding global markets. Our 2026 Edition marks a milestone in industrial scalability and logistical efficiency.",
+      "description": "At Numidex, we are more than just exporters; we are the strategic link between the fertile landscapes of Algeria and the demanding global markets. Our 2026 Edition marks a milestone in industrial scalability and logistical efficiency.",
       "global_reach_title": "Global Reach",
       "global_reach_desc": "Strategically located to serve Europe, Africa, and the Middle East with rapid turnaround times.",
       "quality_assurance_title": "Quality Assurance",
@@ -256,7 +256,7 @@
       "modern_logistics_title": "Modern Logistics",
       "modern_logistics_desc": "Advanced temperature-controlled storage and real-time tracking for all agricultural assets.",
       "export_title": "Our Export Process",
-      "export_desc": "At MADE IN BLED TRADING, we have established a clear and structured process to ensure a smooth and secure export.",
+      "export_desc": "At NUMIDEX, we have established a clear and structured process to ensure a smooth and secure export.",
       "export_steps": [
         "Contact and study of your request",
         "Technical and commercial analysis",

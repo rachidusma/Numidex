@@ -58,7 +58,7 @@
         "history": {
             "title": "Notre Voyage Vers 2026",
             "subtitle": "L'Évolution",
-            "description": "Fondée avec une passion pour l'agriculture algérienne, Made in Bled Trading a rapidement étendu son empreinte. Notre prochaine « Édition 2026 » marque une étape importante dans notre expansion vers des emballages durables de haute technologie et des chaînes d'approvisionnement directes au détail en Europe et dans les Amériques.",
+            "description": "Fondée avec une passion pour l'agriculture algérienne, Numidex a rapidement étendu son empreinte. Notre prochaine « Édition 2026 » marque une étape importante dans notre expansion vers des emballages durables de haute technologie et des chaînes d'approvisionnement directes au détail en Europe et dans les Amériques.",
             "timeline": [
                 {
                     "year": "2021",
@@ -100,7 +100,7 @@
     },
   "products": {
     "title": "Nos catégories de produits",
-    "description": "MADE IN BLED TRADING est une entreprise algérienne spécialisée dans l'exportation de produits agricoles et agroalimentaires, spécifiquement les fruits, légumes et dattes. Notre ambition est de connecter l'expertise algérienne aux marchés internationaux à travers un commerce responsable, structuré et professionnel.",
+    "description": "NUMIDEX est une entreprise algérienne spécialisée dans l'exportation de produits agricoles et agroalimentaires, spécifiquement les fruits, légumes et dattes. Notre ambition est de connecter l'expertise algérienne aux marchés internationaux à travers un commerce responsable, structuré et professionnel.",
     "discover_more": "Découvrir plus",
     "showing_of": "Affichage de {count} sur {total} collections",
     "fruits": "Fruits",
@@ -112,7 +112,7 @@
     "olive_oil": "Huile d’olive"
   },
   "why_us": {
-    "title": "Pourquoi choisir MADE IN BLED TRADING ?",
+    "title": "Pourquoi choisir NUMIDEX ?",
     "quality": {
       "title": "Garantie de Qualité",
       "desc": "Standards internationaux garantissant un goût premium et la sécurité."
@@ -240,7 +240,7 @@
     "locations": {
         "main_hub": "Hub Principal d'Exportation, Zone Industrielle, Alger, Algérie"
     },
-    "copyright": "© {year} Made in Bled Trading. Tous droits réservés. Édition 2026 Prête.",
+    "copyright": "© {year} Numidex. Tous droits réservés. Édition 2026 Prête.",
     "privacy_policy": "Politique de Confidentialité",
     "export_terms": "Conditions d'Exportation"
   },
@@ -248,7 +248,7 @@
       "edition_release": "Sortie de l'Édition",
       "benchmark_trust": "La Référence de Confiance",
       "title": "Algérie - Experts en Distribution & Exportation",
-      "description": "Chez Made in Bled Trading, nous sommes plus que de simples exportateurs ; nous sommes le lien stratégique entre les paysages fertiles d'Algérie et les marchés mondiaux exigeants. Notre Édition 2026 marque une étape importante dans l'évolutivité industrielle et l'efficacité logistique.",
+      "description": "Chez Numidex, nous sommes plus que de simples exportateurs ; nous sommes le lien stratégique entre les paysages fertiles d'Algérie et les marchés mondiaux exigeants. Notre Édition 2026 marque une étape importante dans l'évolutivité industrielle et l'efficacité logistique.",
       "global_reach_title": "Portée Mondiale",
       "global_reach_desc": "Stratégiquement situé pour servir l'Europe, l'Afrique et le Moyen-Orient avec des délais d'exécution rapides.",
       "quality_assurance_title": "Assurance Qualité",
@@ -256,7 +256,7 @@
       "modern_logistics_title": "Logistique Moderne",
       "modern_logistics_desc": "Stockage avancé à température contrôlée et suivi en temps réel pour tous les actifs agricoles.",
       "export_title": "Notre processus d’exportation",
-      "export_desc": "Chez MADE IN BLED TRADING, nous avons mis en place un processus clair et structuré afin d’assurer une exportation fluide et sécurisée.",
+      "export_desc": "Chez NUMIDEX, nous avons mis en place un processus clair et structuré afin d’assurer une exportation fluide et sécurisée.",
       "export_steps": [
         "Contact et étude de votre demande",
         "Analyse technique et commerciale",

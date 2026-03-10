@@ -262,7 +262,7 @@ export default function ContactForm({ dictionary }: ContactFormProps) {
                       </div>
                       <div>
                         <p className="text-sm text-slate-400 font-medium uppercase tracking-wider mb-1">{dictionary.contact.info.email}</p>
-                        <p className="text-xl font-bold text-white">Madeinbledtrading@gmail.com</p>
+                        <p className="text-xl font-bold text-white">contact@numidex.com</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-6">
@@ -271,7 +271,7 @@ export default function ContactForm({ dictionary }: ContactFormProps) {
                       </div>
                       <div>
                         <p className="text-sm text-slate-400 font-medium uppercase tracking-wider mb-1">{dictionary.contact.info.website}</p>
-                        <p className="text-xl font-bold text-white">https://www.madeinbledtr.com/</p>
+                        <p className="text-xl font-bold text-white">https://www.numidex.com/</p>
                       </div>
                     </div>
                   </div>

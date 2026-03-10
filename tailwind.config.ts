@@ -15,18 +15,18 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        'bled-orange': '#FE6B01',
-        'bled-blue': '#013765',
-        'primary': '#f37120', // Updated to match brand orange from reference
+        'numidex-yellow': '#fcbf11',
+        'numidex-blue': '#183159',
+        'primary': '#fcbf11', // Updated to Numidex yellow
         'background-light': '#f8f7f5',
-        'background-dark': '#0a192f', // Updated to match reference exactly (#0a192f instead of #0f172a)
-        'navy-section': '#19253b', // Requested background color
-        'navy-deep': '#0a192f', // Updated to match background-dark
-        'navy-card': '#1e293b', // Updated to match neutral-dark
-        'navy-muted': '#162a4a', // Added from Contact Page reference
-        'navy-border': '#1e3a61', // Added from Contact Page reference
-        'neutral-dark': '#1e293b', // Refined from reference
-        'border-dark': '#334155', // Refined from reference
+        'background-dark': '#183159', // Updated to Numidex blue
+        'navy-section': '#183159', // Updated to Numidex blue
+        'navy-deep': '#183159', // Updated to Numidex blue
+        'navy-card': '#1e293b',
+        'navy-muted': '#162a4a',
+        'navy-border': '#1e3a61',
+        'neutral-dark': '#1e293b',
+        'border-dark': '#334155',
       },
       fontFamily: {
         "display": ["Inter", "sans-serif"]

@@ -121,8 +121,8 @@ export async function sendContactEmail(formData: {
   })
 
   const mailOptions = {
-    from: `"Made In Bled Contact" <${process.env.SMTP_USER}>`,
-    to: 'madeinbledtrading@gmail.com',
+    from: `"Numidex Contact" <${process.env.SMTP_USER}>`,
+    to: 'contact@numidex.com',
     subject: `New Contact Form Submission from ${formData.name}`,
     text: `
       Name: ${formData.name}
@@ -133,7 +133,7 @@ export async function sendContactEmail(formData: {
       ${formData.productLink ? `Product Link: ${formData.productLink}` : ''}
     `,
     html: `
-      <h2>New Message From Madeinbledtr.com</h2>
+      <h2>New Message From Numidex.com</h2>
       <p><strong>Name:</strong> ${formData.name}</p>
       <p><strong>Company:</strong> ${formData.company}</p>
       <p><strong>Country:</strong> ${formData.country}</p>

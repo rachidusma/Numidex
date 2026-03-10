@@ -27,7 +27,7 @@ export default function Navbar({ dictionary, lang }: { dictionary: any, lang: st
           <Link href={`/${lang}`} className="flex items-center gap-3">
             <Image
               src="/logo.png"
-              alt="Made in Bled Trading Logo"
+              alt="Numidex Logo"
               width={210}
               height={50}
               priority

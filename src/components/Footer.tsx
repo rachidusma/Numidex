@@ -12,7 +12,7 @@ export default function Footer({ dictionary }: { dictionary: any }) {
             <div className="mb-6 inline-block">
               <Image
                 src="/logo.png"
-                alt="Made in Bled Trading Logo"
+                alt="Numidex Logo"
                 width={250}
                 height={60}
                 className="object-contain"
@@ -80,11 +80,11 @@ export default function Footer({ dictionary }: { dictionary: any }) {
                 </div>
                 <div className="flex items-center gap-3 text-slate-400">
                   <span className="material-symbols-outlined text-primary">mail</span>
-                  <span className="text-sm">Madeinbledtrading@gmail.com</span>
+                  <span className="text-sm">contact@numidex.com</span>
                 </div>
                 <div className="flex items-center gap-3 text-slate-400">
                   <span className="material-symbols-outlined text-primary">public</span>
-                  <span className="text-sm">https://www.madeinbledtr.com/</span>
+                  <span className="text-sm">https://www.numidex.com/</span>
                 </div>
               </div>
               <div className="flex gap-3 text-slate-400">

@@ -1,7 +1,7 @@
 import '../globals.css'
 
 export const metadata = {
-  title: 'Made In Bled - Admin Login',
+  title: 'Numidex - Admin Login',
   description: 'Admin Login',
 }
 
