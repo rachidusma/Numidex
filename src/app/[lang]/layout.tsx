@@ -7,7 +7,7 @@ import VisitTracker from '@/components/VisitTracker'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'MadeINBladi - Export de Produits Algériens',
+  title: 'Numidex - Export de Produits Algériens',
   description: 'Exportation de produits agricoles et agroalimentaires algériens.',
 }
 
