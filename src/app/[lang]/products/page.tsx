@@ -40,13 +40,27 @@ export default async function Products({
     <main className="min-h-screen bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display flex flex-col">
       <Navbar dictionary={dictionary} lang={lang} />
       
-      {/* Hero Introduction */}
-      <section className="px-6 md:px-16 py-12 bg-neutral-dark/30 border-b border-border-dark pt-32">
-        <div className="max-w-4xl mx-auto lg:mx-0">
-          <h1 className="text-4xl md:text-5xl font-black text-white mb-4 tracking-tight">
+      {/* Hero Section */}
+      <section className="relative flex min-h-[60vh] w-full items-center justify-center overflow-hidden">
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/80 z-10" />
+          <img
+            alt="Products Hero"
+            className="h-full w-full object-cover"
+            src="/images/33.webp"
+          />
+        </div>
+        {/* Content */}
+        <div className="relative z-20 text-center px-6 pt-24 pb-12">
+          <div className="inline-flex items-center gap-2 rounded-full bg-primary/20 px-4 py-1.5 border border-primary/30 mb-6">
+            <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
+            <span className="text-xs font-bold uppercase tracking-widest text-primary">{dictionary.hero?.badge ?? 'Our Products'}</span>
+          </div>
+          <h1 className="text-4xl md:text-6xl font-black text-white mb-4 tracking-tight">
             {dictionary.products.title}
           </h1>
-          <p className="text-lg text-slate-400 leading-relaxed max-w-2xl">
+          <p className="text-lg text-slate-300 leading-relaxed max-w-2xl mx-auto">
             {dictionary.products.description}
           </p>
         </div>

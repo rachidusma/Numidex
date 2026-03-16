@@ -9,7 +9,7 @@ export default function Hero({ dictionary, lang }: { dictionary: any, lang: stri
         <img 
           alt="Global Shipping Port" 
           className="h-full w-full object-cover" 
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCa2kHHaVg7ljEQGu_nFuYUWchFd6tOmrSexbYwW5LB_OcnuoppiNm08DRY0B8nSJIARSPaHHm5Vs7MVNf2Skew6h3AhBivvhd-kGJP1t4je9_XXyyNGaLNndpt1CugvE4f2PwvCOJKA1B1x2R1AQaNKseoF86pFPcGrXKrheZf6LbfDnyEeY02M3JVwA7KIPs8ubMb0bIvLYFhxp3xgnJyExJ4LYmxpopluqylRIp0-pgh3JT1kV4vwH8TOiK2UaUBArh1pb6ko0s"
+          src="/images/33.webp"
         />
       </div>
       

@@ -16,9 +16,11 @@ interface ProductFormProps {
     id: string
     name: string
     name_fr?: string | null
+    name_pt?: string | null
     name_ar?: string | null
     description: string | null
     description_fr?: string | null
+    description_pt?: string | null
     description_ar?: string | null
     image: string | null
     categoryId: string
@@ -31,9 +33,11 @@ export default function ProductForm({ isOpen, onClose, onSuccess, initialData, c
   const [formData, setFormData] = useState({
     name: '',
     name_fr: '',
+    name_pt: '',
     name_ar: '',
     description: '',
     description_fr: '',
+    description_pt: '',
     description_ar: '',
     image: '',
     categoryId: '',
@@ -47,9 +51,11 @@ export default function ProductForm({ isOpen, onClose, onSuccess, initialData, c
       setFormData({
         name: initialData.name,
         name_fr: initialData.name_fr || '',
+        name_pt: initialData.name_pt || '',
         name_ar: initialData.name_ar || '',
         description: initialData.description || '',
         description_fr: initialData.description_fr || '',
+        description_pt: initialData.description_pt || '',
         description_ar: initialData.description_ar || '',
         image: initialData.image || '',
         categoryId: initialData.categoryId,
@@ -128,7 +134,7 @@ export default function ProductForm({ isOpen, onClose, onSuccess, initialData, c
             />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Name (French)</label>
               <input
@@ -137,6 +143,16 @@ export default function ProductForm({ isOpen, onClose, onSuccess, initialData, c
                 onChange={(e) => setFormData({ ...formData, name_fr: e.target.value })}
                 className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#FE6B01] focus:border-transparent outline-none transition-all"
                 placeholder="e.g. Huile d'Argan"
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Name (Portuguese)</label>
+              <input
+                type="text"
+                value={formData.name_pt || ''}
+                onChange={(e) => setFormData({ ...formData, name_pt: e.target.value })}
+                className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#FE6B01] focus:border-transparent outline-none transition-all"
+                placeholder="e.g. Óleo de Argan"
               />
             </div>
             <div>
@@ -192,7 +208,7 @@ export default function ProductForm({ isOpen, onClose, onSuccess, initialData, c
             />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Description (French)</label>
               <textarea
@@ -201,6 +217,16 @@ export default function ProductForm({ isOpen, onClose, onSuccess, initialData, c
                 onChange={(e) => setFormData({ ...formData, description_fr: e.target.value })}
                 className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#FE6B01] focus:border-transparent outline-none transition-all resize-none"
                 placeholder="Description en français..."
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Description (Portuguese)</label>
+              <textarea
+                rows={3}
+                value={formData.description_pt || ''}
+                onChange={(e) => setFormData({ ...formData, description_pt: e.target.value })}
+                className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#FE6B01] focus:border-transparent outline-none transition-all resize-none"
+                placeholder="Descrição em português..."
               />
             </div>
             <div>

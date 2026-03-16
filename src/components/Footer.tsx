@@ -76,11 +76,11 @@ export default function Footer({ dictionary }: { dictionary: any }) {
               <div className="space-y-4">
                 <div className="flex items-center gap-3 text-slate-400">
                   <span className="material-symbols-outlined text-primary">phone_iphone</span>
-                  <span className="text-sm">+213559100042</span>
+                  <span className="text-sm">+351 922 007 073</span>
                 </div>
                 <div className="flex items-center gap-3 text-slate-400">
                   <span className="material-symbols-outlined text-primary">mail</span>
-                  <span className="text-sm">contact@numidex.com</span>
+                  <span className="text-sm">Numidex.lda@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3 text-slate-400">
                   <span className="material-symbols-outlined text-primary">public</span>

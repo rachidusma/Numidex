@@ -30,27 +30,27 @@ export default function Products({ dictionary, categories, lang }: ProductsProps
   }
 
   return (
-    <section className="bg-navy-section py-24 px-6 lg:px-20" id="products">
+    <section className="bg-white py-24 px-6 lg:px-20" id="products">
       <div className="mx-auto max-w-7xl">
         <div className="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="max-w-2xl">
             <h2 className="text-primary text-sm font-bold uppercase tracking-[0.2em] mb-3">Our Expertise</h2>
-            <h3 className="text-4xl md:text-5xl font-black text-white mb-6">{dictionary.products.title}</h3>
-            <p className="text-slate-400 text-lg">
+            <h3 className="text-4xl md:text-5xl font-black text-navy-deep mb-6">{dictionary.products.title}</h3>
+            <p className="text-slate-600 text-lg">
               {dictionary.products.description}
             </p>
           </div>
           <div className="flex gap-4">
             <button 
               onClick={() => scroll('left')}
-              className="flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white transition-all hover:bg-primary hover:text-white shrink-0"
+              className="flex h-12 w-12 items-center justify-center rounded-full border border-navy-deep/10 bg-navy-deep/5 text-navy-deep transition-all hover:bg-primary hover:text-white hover:border-primary shrink-0"
               aria-label="Previous categories"
             >
               <ChevronLeft className="h-6 w-6" />
             </button>
             <button 
               onClick={() => scroll('right')}
-              className="flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white transition-all hover:bg-primary hover:text-white shrink-0"
+              className="flex h-12 w-12 items-center justify-center rounded-full border border-navy-deep/10 bg-navy-deep/5 text-navy-deep transition-all hover:bg-primary hover:text-white hover:border-primary shrink-0"
               aria-label="Next categories"
             >
               <ChevronRight className="h-6 w-6" />

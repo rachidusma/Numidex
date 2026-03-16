@@ -61,7 +61,7 @@ export default function ContactForm({ dictionary }: ContactFormProps) {
 
   const handleWhatsAppClick = () => {
     // Replace with your WhatsApp number (include country code without + or spaces)
-    const phoneNumber = '213559100042' // Update this with actual number
+    const phoneNumber = '351922007073' // Update this with actual number
     const message = encodeURIComponent('Hello, I would like to inquire about your products.')
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank')
   }
@@ -253,7 +253,7 @@ export default function ContactForm({ dictionary }: ContactFormProps) {
                       </div>
                       <div>
                         <p className="text-sm text-slate-400 font-medium uppercase tracking-wider mb-1">{dictionary.contact.info.phone}</p>
-                        <p className="text-xl font-bold text-white">+213559100042</p>
+                        <p className="text-xl font-bold text-white">+351 922 007 073</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-6">
@@ -262,7 +262,7 @@ export default function ContactForm({ dictionary }: ContactFormProps) {
                       </div>
                       <div>
                         <p className="text-sm text-slate-400 font-medium uppercase tracking-wider mb-1">{dictionary.contact.info.email}</p>
-                        <p className="text-xl font-bold text-white">contact@numidex.com</p>
+                        <p className="text-xl font-bold text-white">Numidex.lda@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-6">

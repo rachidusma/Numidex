@@ -36,11 +36,11 @@ export async function getProducts({
 
     const products = productsRaw.map(product => ({
       ...product,
-      name: lang === 'fr' ? (product.name_fr || product.name) : lang === 'ar' ? (product.name_ar || product.name) : product.name,
-      description: lang === 'fr' ? (product.description_fr || product.description) : lang === 'ar' ? (product.description_ar || product.description) : product.description,
+      name: lang === 'fr' ? (product.name_fr || product.name) : lang === 'pt' ? (product.name_pt || product.name) : product.name,
+      description: lang === 'fr' ? (product.description_fr || product.description) : lang === 'pt' ? (product.description_pt || product.description) : product.description,
       category: {
         ...product.category,
-        name: lang === 'fr' ? (product.category.name_fr || product.category.name) : lang === 'ar' ? (product.category.name_ar || product.category.name) : product.category.name,
+        name: lang === 'fr' ? (product.category.name_fr || product.category.name) : lang === 'pt' ? (product.category.name_pt || product.category.name) : product.category.name,
       }
     }))
 
@@ -68,11 +68,11 @@ export async function getProduct(id: string, lang: string = 'en') {
 
     return {
       ...product,
-      name: lang === 'fr' ? (product.name_fr || product.name) : lang === 'ar' ? (product.name_ar || product.name) : product.name,
-      description: lang === 'fr' ? (product.description_fr || product.description) : lang === 'ar' ? (product.description_ar || product.description) : product.description,
+      name: lang === 'fr' ? (product.name_fr || product.name) : lang === 'pt' ? (product.name_pt || product.name) : product.name,
+      description: lang === 'fr' ? (product.description_fr || product.description) : lang === 'pt' ? (product.description_pt || product.description) : product.description,
       category: {
         ...product.category,
-        name: lang === 'fr' ? (product.category.name_fr || product.category.name) : lang === 'ar' ? (product.category.name_ar || product.category.name) : product.category.name,
+        name: lang === 'fr' ? (product.category.name_fr || product.category.name) : lang === 'pt' ? (product.category.name_pt || product.category.name) : product.category.name,
       }
     }
   } catch (error) {
@@ -91,8 +91,8 @@ export async function getCategories(lang: string = 'en') {
     
     const categories = categoriesRaw.map(category => ({
       ...category,
-      name: lang === 'fr' ? (category.name_fr || category.name) : lang === 'ar' ? (category.name_ar || category.name) : category.name,
-      description: lang === 'fr' ? (category.description_fr || category.description) : lang === 'ar' ? (category.description_ar || category.description) : category.description,
+      name: lang === 'fr' ? (category.name_fr || category.name) : lang === 'pt' ? (category.name_pt || category.name) : category.name,
+      description: lang === 'fr' ? (category.description_fr || category.description) : lang === 'pt' ? (category.description_pt || category.description) : category.description,
     }))
 
     return categories

@@ -23,7 +23,7 @@ export default function RootLayout({
   params: { lang: string }
 }) {
   return (
-    <html lang={params.lang} dir={params.lang === 'ar' ? 'rtl' : 'ltr'} className="dark">
+    <html lang={params.lang} dir="ltr" className="dark">
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>

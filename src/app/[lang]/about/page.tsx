@@ -10,10 +10,10 @@ export default async function About({
   params: { lang: Locale }
 }) {
   const dictionary = await getDictionary(lang)
-  const isRtl = lang === 'ar'
+  const isRtl = false
 
   return (
-    <main className={`min-h-screen bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 ${isRtl ? 'rtl' : 'ltr'}`}>
+    <main className={`min-h-screen bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 ltr`}>
       <Navbar dictionary={dictionary} lang={lang} />
       
       {/* Hero Section */}

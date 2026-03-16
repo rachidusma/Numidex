@@ -1,27 +1,38 @@
 'use client'
 import Link from 'next/link'
 import Image from 'next/image'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { usePathname, useSearchParams } from 'next/navigation'
 
 export default function Navbar({ dictionary, lang }: { dictionary: any, lang: string }) {
   const [isOpen, setIsOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
   const pathname = usePathname()
   const searchParams = useSearchParams()
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20)
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
 
   const redirectedPathname = (locale: string) => {
     if (!pathname) return '/'
     const segments = pathname.split('/')
     segments[1] = locale
     const url = segments.join('/')
-    
     const params = searchParams.toString()
     return params ? `${url}?${params}` : url
   }
 
-
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-background-dark/80 backdrop-blur-md px-6 lg:px-20 py-4">
+    <header
+      className={`sticky top-0 z-50 w-full px-6 lg:px-20 py-4 transition-all duration-300
+        ${scrolled
+          ? 'bg-background-dark/90 backdrop-blur-md border-b border-white/10'
+          : 'bg-transparent border-b border-transparent'
+        }`}
+    >
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <div className="flex-shrink-0">
           <Link href={`/${lang}`} className="flex items-center gap-3">
@@ -35,34 +46,51 @@ export default function Navbar({ dictionary, lang }: { dictionary: any, lang: st
             />
           </Link>
         </div>
-        
+
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-8">
-          <Link href={`/${lang}`} className="text-sm font-semibold text-slate-300 hover:text-primary transition-colors">
+          <Link
+            href={`/${lang}`}
+            className={`text-sm transition-all duration-300 text-white hover:text-primary
+              ${scrolled ? 'font-semibold' : 'font-black tracking-wide'}`}
+          >
             {dictionary.navigation.home}
           </Link>
-          <Link href={`/${lang}/about`} className="text-sm font-semibold text-slate-300 hover:text-primary transition-colors">
+          <Link
+            href={`/${lang}/about`}
+            className={`text-sm transition-all duration-300 text-white hover:text-primary
+              ${scrolled ? 'font-semibold' : 'font-black tracking-wide'}`}
+          >
             {dictionary.navigation.about}
           </Link>
-          <Link href={`/${lang}/products`} className="text-sm font-semibold text-slate-300 hover:text-primary transition-colors">
+          <Link
+            href={`/${lang}/products`}
+            className={`text-sm transition-all duration-300 text-white hover:text-primary
+              ${scrolled ? 'font-semibold' : 'font-black tracking-wide'}`}
+          >
             {dictionary.navigation.products}
           </Link>
-          <Link href={`/${lang}/process`} className="text-sm font-semibold text-slate-300 hover:text-primary transition-colors">
+          <Link
+            href={`/${lang}/process`}
+            className={`text-sm transition-all duration-300 text-white hover:text-primary
+              ${scrolled ? 'font-semibold' : 'font-black tracking-wide'}`}
+          >
             {dictionary.navigation.process}
           </Link>
-          <Link href={`/${lang}/contact`} className="rounded bg-primary px-6 py-2.5 text-sm font-bold text-white shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all">
+          <Link
+            href={`/${lang}/contact`}
+            className="rounded bg-primary px-6 py-2.5 text-sm font-bold text-white shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all"
+          >
             {dictionary.navigation.contact}
           </Link>
-          
-          <div className="flex space-x-2 text-sm text-slate-400 border-l border-white/10 pl-4">
-            <Link href={redirectedPathname('fr')} className={`hover:text-primary ${lang === 'fr' ? 'font-bold text-primary' : ''}`}>FR</Link>
-            <span>|</span>
-            <Link href={redirectedPathname('en')} className={`hover:text-primary ${lang === 'en' ? 'font-bold text-primary' : ''}`}>EN</Link>
-            <span>|</span>
-            <Link href={redirectedPathname('ar')} className={`hover:text-primary ${lang === 'ar' ? 'font-bold text-primary' : ''}`}>AR</Link>
-          </div>
-          
 
+          <div className="flex space-x-2 text-sm text-slate-300 border-l border-white/20 pl-4">
+            <Link href={redirectedPathname('fr')} className={`hover:text-primary transition-colors ${lang === 'fr' ? 'font-bold text-primary' : ''}`}>FR</Link>
+            <span>|</span>
+            <Link href={redirectedPathname('en')} className={`hover:text-primary transition-colors ${lang === 'en' ? 'font-bold text-primary' : ''}`}>EN</Link>
+            <span>|</span>
+            <Link href={redirectedPathname('pt')} className={`hover:text-primary transition-colors ${lang === 'pt' ? 'font-bold text-primary' : ''}`}>PT</Link>
+          </div>
         </nav>
 
         {/* Mobile menu button */}
@@ -101,7 +129,7 @@ export default function Navbar({ dictionary, lang }: { dictionary: any, lang: st
             <div className="flex space-x-4 pt-4 border-t border-white/10">
               <Link href={redirectedPathname('fr')} className={lang === 'fr' ? 'text-primary font-bold' : 'text-slate-400'}>Français</Link>
               <Link href={redirectedPathname('en')} className={lang === 'en' ? 'text-primary font-bold' : 'text-slate-400'}>English</Link>
-              <Link href={redirectedPathname('ar')} className={lang === 'ar' ? 'text-primary font-bold' : 'text-slate-400'}>العربية</Link>
+              <Link href={redirectedPathname('pt')} className={lang === 'pt' ? 'text-primary font-bold' : 'text-slate-400'}>Português</Link>
             </div>
           </div>
         </div>

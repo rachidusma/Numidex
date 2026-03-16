@@ -3,46 +3,50 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url ="postgresql://postgres.opjdnghtpvltwalfpgjs:Ra0794420337@aws-1-eu-west-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
-  directUrl="postgresql://postgres.opjdnghtpvltwalfpgjs:Ra0794420337@aws-1-eu-west-1.pooler.supabase.com:5432/postgres"
+  provider  = "postgresql"
+  url       = "postgresql://postgres.opjdnghtpvltwalfpgjs:Ra0794420337@aws-1-eu-west-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+  directUrl = "postgresql://postgres.opjdnghtpvltwalfpgjs:Ra0794420337@aws-1-eu-west-1.pooler.supabase.com:5432/postgres"
 }
 
 model Admin {
-  id       String @id @default(cuid())
-  email    String @unique
-  password String // Hashed
+  id       String  @id @default(cuid())
+  email    String  @unique
+  password String
   name     String?
 }
 
 model Category {
-  id          String    @id @default(cuid())
-  name        String
-  name_fr     String?
-  name_ar     String?
-  description String?
+  id             String    @id @default(cuid())
+  name           String
+  name_fr        String?
+  description    String?
   description_fr String?
+  image          String?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  description_pt String?
+  name_pt        String?
   description_ar String?
-  image       String?
-  products    Product[]
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
+  name_ar        String?
+  products       Product[]
 }
 
 model Product {
-  id          String   @id @default(cuid())
-  name        String
-  name_fr     String?
-  name_ar     String?
-  description String?
+  id             String   @id @default(cuid())
+  name           String
+  name_fr        String?
+  description    String?
   description_fr String?
+  image          String?
+  categoryId     String
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  isAvailable    Boolean  @default(true)
+  description_pt String?
+  name_pt        String?
   description_ar String?
-  image       String?
-  isAvailable Boolean  @default(true)
-  category    Category @relation(fields: [categoryId], references: [id])
-  categoryId  String
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  name_ar        String?
+  category       Category @relation(fields: [categoryId], references: [id])
 }
 
 model SiteVisit {
@@ -52,6 +56,6 @@ model SiteVisit {
   ipAddress String?
   path      String?
   country   String?
-  
-  @@map("madeinbladi_site_visits")
+
+  @@map("visits_numidex")
 }
