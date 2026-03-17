@@ -23,7 +23,7 @@ export default function Footer({ dictionary }: { dictionary: any }) {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.facebook.com/share/1C6KsuuutN/"
+                href="https://www.facebook.com/share/187NrfMWLJ/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#FE6B01] hover:scale-110 transition-all duration-300 group"
@@ -32,7 +32,7 @@ export default function Footer({ dictionary }: { dictionary: any }) {
                 <Facebook className="w-5 h-5 text-white" />
               </a>
               <a
-                href="https://www.instagram.com/made_in_bled_trading?igsh=eHlhZzdxd3UzYjhj"
+                href="https://www.instagram.com/numidex.lda?igsh=MTd4b3Jrc2Qycm9kYQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#FE6B01] hover:scale-110 transition-all duration-300 group"
@@ -41,7 +41,7 @@ export default function Footer({ dictionary }: { dictionary: any }) {
                 <Instagram className="w-5 h-5 text-white" />
               </a>
               <a 
-                href="https://www.tiktok.com/@made.in.bled.trad?_r=1&_t=ZS-93oGrAUyDr7" 
+                href="https://www.tiktok.com/@numidex.lda?_r=1&_t=ZG-94lJTnkknx2" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#FE6B01] hover:scale-110 transition-all duration-300 group"
