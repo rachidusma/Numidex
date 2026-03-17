@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Hero({ dictionary, lang }: { dictionary: any, lang: string }) {
   return (
-    <section className="relative flex min-h-[85vh] w-full items-center justify-center overflow-hidden px-6 lg:px-20">
+    <section className="relative flex min-h-[95vh] w-full items-center justify-center overflow-hidden px-6 lg:px-20 pt-30">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-navy-deep via-navy-deep/90 to-transparent z-10"></div>

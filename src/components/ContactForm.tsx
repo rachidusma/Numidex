@@ -328,9 +328,9 @@ export default function ContactForm({ dictionary }: ContactFormProps) {
                 <img 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
                   src={[
-                    "https://lh3.googleusercontent.com/aida-public/AB6AXuDass3YnFGZMbuEJcrXhZBhYwWTEzOsFD4X6icQ5XAh8ecujrwktR9QdgArxpU3apxV6akxF6z12kqHFCKacTfEhMR3L4GdJrU_snjD2iHh9lMkYZU_OzXdXeeXKG1dARnDLu0fX0R7QLllnQjuWKS9xc_aHh6-7RaaN5RmczIi7KrntOJ6d4Al-_0bS3ZD7_-2gFwt8nUHSKjirQFdhK9q7FvdlTpYylAVyJjZ2dMXlA_SWj34h6qwU3ep-ZBfFBeZLo20kYUXh6Y",
+                    "/images/Lisbon.jpg",
                     "/images/doha-card.jpg",
-                    "https://lh3.googleusercontent.com/aida-public/AB6AXuAqQOQTW5oyLNKp4652-klrBfDSNHyqj2dOc05b8HgJYDbGFavHyhU6FWjojI7YqELwfg7XM242_wjHkQJGrQnSE3Itgwr5v5vNJq7sh5rAsEfr306xlWKM8xwMZYA9CjAr4U7a7UYn2TXYbVOOZVOg4TqSdohCIxekH237vYCFxpjbcOtQR7hsQ5Go2ZPjqB5kEM_JOF3SjtNWUwFv2H2u8ImJP2eplI4olOnKTP7E19blmWDagChhqeICRaT0pJwOv1FtQjPiy-c"
+                    "/images/Algiers.webp"
                   ][index]}
                   alt={office.city} 
                 />
@@ -362,7 +362,7 @@ export default function ContactForm({ dictionary }: ContactFormProps) {
             <span className="material-symbols-outlined text-primary text-4xl animate-bounce">location_on</span>
             <div>
               <p className="font-bold text-lg text-white">Main Trading Office</p>
-              <p className="text-slate-400 text-sm">Algiers, North Africa District</p>
+              <p className="text-slate-400 text-sm">Lisbon, North Africa District</p>
             </div>
           </div>
         </div>

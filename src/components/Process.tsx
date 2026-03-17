@@ -7,7 +7,7 @@ export default function Process({ dictionary }: { dictionary: any }) {
           <div className="relative">
             <div className="aspect-square overflow-hidden rounded-2xl border-4 border-white/5">
               <img 
-                alt="Algerian Agriculture" 
+                alt="Portuguese Agriculture" 
                 className="h-full w-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" 
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCby1JGOAHfa1VGMQ0ATzDVJb4u-6694_sH2smcm9cQcdHEHsBW-U6jcQBmkdftaQLa6v9v-OZMX39X8Ckd101SRLC6Oj4d_mff_3tol_TxB8YpsfX9loROsaa0U29FisWofbSMSPj48xMzgMihf7dy62Plt5g_f9KewEhTzQuLpE9a8jjrmPoCqax-PgunABHyvWYdPRup4_vYVc2moMzQZ060d-lhK6TG4gTyDzGivraW2D_qNbsCvfZsYQmNWDEQsmwK9gp3w4s"
               />

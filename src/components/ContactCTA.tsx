@@ -8,7 +8,7 @@ export default function ContactCTA({ dictionary }: { dictionary: any }) {
           {dictionary.contact_cta.title || "Ready to scale your supply chain?"}
         </h2>
         <p className="text-white/90 text-lg mb-10 font-medium">
-          {dictionary.contact_cta.subtitle || "Partner with Algeria's most reliable export network for the 2026 season."}
+          {dictionary.contact_cta.subtitle || "Partner with Portugal's most reliable export network for the 2026 season."}
         </p>
         <Link 
           href="/contact"

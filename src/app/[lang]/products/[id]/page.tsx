@@ -76,7 +76,7 @@ export default async function ProductPage({
               <h1 className="text-4xl md:text-6xl font-black mb-4 tracking-tight leading-tight">{product.name}</h1>
               <p className="text-xl text-primary font-bold mb-8 flex items-center gap-2">
                 <span className="material-symbols-outlined">location_on</span>
-                {dictionary.product_page.origin}: <span className="text-white">Algeria</span>
+                {dictionary.product_page.origin}: <span className="text-white">Portugal</span>
               </p>
               
               <div className="w-20 h-1.5 bg-primary rounded-full mb-8"></div>

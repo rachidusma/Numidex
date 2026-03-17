@@ -55,7 +55,7 @@ export default function ProductCard({ product, dictionary, lang }: ProductCardPr
         <div className="mt-auto flex items-center justify-between pt-4 border-t border-border-dark">
           <div className="flex flex-col">
             <span className="text-[10px] font-bold uppercase text-slate-500">Origin</span>
-            <span className="text-xs font-semibold text-white">Bled, Algeria</span>
+            <span className="text-xs font-semibold text-white">Bled, Portugal</span>
           </div>
           <Link 
             href={`/${lang}/products/${product.id}`}

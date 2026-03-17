@@ -7,11 +7,11 @@
     "contact": "Contato"
   },
   "hero": {
-    "title": "Levando o Melhor da Argélia para o Mundo",
+    "title": "Levando o Melhor da Portugal para o Mundo",
     "title_part1": "CONECTANDO A",
-    "title_part2": "ARGÉLIA",
+    "title_part2": "PORTUGAL",
     "title_part3": "AO MUNDO",
-    "subtitle": "Conectando mercados globais com os melhores produtos sustentáveis do coração das férteis terras da Argélia.",
+    "subtitle": "Conectando mercados globais com os melhores produtos sustentáveis do coração das férteis terras da Portugal.",
     "badge": "Agora Exportando Edição 2026",
     "cta": "Contate-nos",
     "cta_products": "Explore Nosso Catálogo",
@@ -22,9 +22,9 @@
         "hero": {
             "since": "Desde 2021",
             "title_prefix": "Conectando a",
-            "title_highlight": "Argélia",
+            "title_highlight": "Portugal",
             "title_suffix": "ao Mundo",
-            "description": "Preenchendo a lacuna entre o terroir agrícola argelino premium e os mercados internacionais com excelência, integridade e domínio logístico.",
+            "description": "Preenchendo a lacuna entre o terroir agrícola português premium e os mercados internacionais com excelência, integridade e domínio logístico.",
             "cta_primary": "Explore Nossa História",
             "cta_secondary": "Ver Portfólio"
         },
@@ -32,9 +32,9 @@
             "title": "Missão e Visão",
             "subtitle": "Nosso Propósito",
             "mission_title": "Nossa Missão",
-            "mission_content": "Apresentar a riqueza do terroir argelino ao mercado global por meio de práticas sustentáveis de exportação, capacitando os agricultores locais e garantindo a segurança alimentar global.",
+            "mission_content": "Apresentar a riqueza do terroir português ao mercado global por meio de práticas sustentáveis de exportação, capacitando os agricultores locais e garantindo a segurança alimentar global.",
             "vision_title": "Nossa Visão",
-            "vision_content": "Tornar-se a principal ponte para produtos agrícolas argelinos premium em todo o mundo, reconhecidos pela qualidade, confiabilidade e inovação até 2030.",
+            "vision_content": "Tornar-se a principal ponte para produtos agrícolas portugueses premium em todo o mundo, reconhecidos pela qualidade, confiabilidade e inovação até 2030.",
             "stat_label": "Fornecimento Orgânico"
         },
         "values": {
@@ -43,7 +43,7 @@
             "items": [
                 {
                     "title": "Qualidade Incomparável",
-                    "description": "Aderimos aos mais altos padrões internacionais de segurança alimentar e qualidade, garantindo que cada produto represente o melhor da Argélia."
+                    "description": "Aderimos aos mais altos padrões internacionais de segurança alimentar e qualidade, garantindo que cada produto represente o melhor da Portugal."
                 },
                 {
                     "title": "Transparência Total",
@@ -58,7 +58,7 @@
         "history": {
             "title": "Nossa Jornada Rumo a 2026",
             "subtitle": "A Evolução",
-            "description": "Fundada com a paixão pela agricultura argelina, a Numidex expandiu rapidamente sua presença. Nossa futura \"Edição 2026\" marca um marco significativo em nossa expansão para embalagens sustentáveis de alta tecnologia e cadeias de suprimentos diretas ao varejo na Europa e nas Américas.",
+            "description": "Fundada com a paixão pela agricultura portuguesa, a Numidex expandiu rapidamente sua presença. Nossa futura \"Edição 2026\" marca um marco significativo em nossa expansão para embalagens sustentáveis de alta tecnologia e cadeias de suprimentos diretas ao varejo na Europa e nas Américas.",
             "timeline": [
                 {
                     "year": "2021",
@@ -80,7 +80,7 @@
         "global_reach": {
             "title": "Alcance Global",
             "subtitle": "Presença Internacional",
-            "description": "Sediada em Argel, nossa rede operacional se estende por continentes, garantindo que os produtos frescos argelinos nunca fiquem longe da sua mesa.",
+            "description": "Sediada em Lisboa, nossa rede operacional se estende por continentes, garantindo que os produtos frescos portugueses nunca fiquem longe da sua mesa.",
             "regions": [
                 {
                     "name": "Europa",
@@ -92,7 +92,7 @@
                 },
                 {
                     "name": "Oriente Médio",
-                    "description": "Centros de distribuição estratégicos em Dubai e Jeddah."
+                    "description": "Centros de distribuição estratégicos em Argel e Jeddah."
                 }
             ],
             "serving_label": "Atendendo a mais de 25 países em todo o mundo"
@@ -100,7 +100,7 @@
     },
   "products": {
     "title": "Nossas Categorias de Produtos",
-    "description": "A NUMIDEX é uma empresa argelina especializada na exportação de produtos agrícolas e agroalimentares, especificamente frutas, legumes e tâmaras. Nossa ambição é conectar a experiência argelina aos mercados internacionais por meio de um comércio responsável, estruturado e profissional.",
+    "description": "A NUMIDEX é uma empresa portuguesa especializada na exportação de produtos agrícolas e agroalimentares, especificamente frutas, legumes e tâmaras. Nossa ambição é conectar a experiência portuguesa aos mercados internacionais por meio de um comércio responsável, estruturado e profissional.",
     "discover_more": "Descubra Mais",
     "showing_of": "Mostrando {count} de {total} coleções",
     "fruits": "Frutas",
@@ -123,7 +123,7 @@
     },
     "price": {
       "title": "Preços Competitivos",
-      "desc": "Fornecimento direto dos produtores argelinos para obter as melhores taxas por atacado."
+      "desc": "Fornecimento direto dos produtores portugueses para obter as melhores taxas por atacado."
     }
   },
   "process": {
@@ -141,7 +141,7 @@
   },
   "contact_cta": {
     "title": "Pronto para escalar sua cadeia de suprimentos?",
-    "subtitle": "Seja parceiro da rede de exportação mais confiável da Argélia para a temporada 2026.",
+    "subtitle": "Seja parceiro da rede de exportação mais confiável da Portugal para a temporada 2026.",
     "button": "Solicite um Orçamento Agora"
   },
   "contact": {
@@ -181,7 +181,7 @@
       "description": "Centros posicionados estrategicamente para facilitar a exportação agrícola rápida e a logística em vários continentes.",
       "offices": [
         {
-          "city": "Argel, DZ",
+          "city": "Lisboa, PT",
           "tag": "Sede",
           "desc": "Nosso principal centro de captação e hub operacional para produtos agrícolas premium do Norte da África."
         },
@@ -191,7 +191,7 @@
           "desc": "Um ponto crucial na nossa rede em expansão, facilitando relacionamentos comerciais diretos no mercado do Catar."
         },
         {
-          "city": "Dubai, EAU",
+          "city": "Argel, DZ",
           "tag": "Portal de Negócios",
           "desc": "Posicionado de forma estratégica para o comércio do Oriente Médio, garantindo entregas eficientes aos países do Golfo."
         }
@@ -224,7 +224,7 @@
   "product_banner": {
     "subtitle": "Logística Premium",
     "title": "Padrões de Exportação e Embalagem",
-    "description": "A nossa rede logística garante que todos os produtos mantenham o seu frescor desde a Argélia até ao seu destino. Utilizamos contêineres e opções de envio climatizados que cumprem os padrões GlobalGAP.",
+    "description": "A nossa rede logística garante que todos os produtos mantenham o seu frescor desde a Portugal até ao seu destino. Utilizamos contêineres e opções de envio climatizados que cumprem os padrões GlobalGAP.",
     "features": {
       "certified": "Certificado GlobalGAP",
       "cold_chain": "Logística da Cadeia de Frio",
@@ -234,11 +234,11 @@
   },
   "footer": {
     "follow_us": "Siga-nos",
-    "brand_desc": "Recompensar a excelência nas exportações agrícolas argelinas da forma inovadora.",
+    "brand_desc": "Recompensar a excelência nas exportações agrícolas portuguesas da forma inovadora.",
     "quick_links": "Links Rápidos",
     "global_contact_center": "Centro de Contato",
     "locations": {
-        "main_hub": "Zona Industrial, Argel, Argélia"
+        "main_hub": "Zona Industrial, Lisboa, Portugal"
     },
     "copyright": "© {year} Numidex. Todos os Direitos Reservados.",
     "privacy_policy": "Política de Privacidade",
@@ -247,8 +247,8 @@
   "process_component": {
       "edition_release": "Edição Lançamento",
       "benchmark_trust": "Referência de Confiança",
-      "title": "Argélia - Especialistas em Distribuição e Exportação",
-      "description": "Na Numidex, somos mais do que exportadores; somos a ligação estratégica entre as férteis planícies de Argélia e a procura dos mercados. A nossa Edição 2026 marca um momento importante de eficiência.",
+      "title": "Portugal - Especialistas em Distribuição e Exportação",
+      "description": "Na Numidex, somos mais do que exportadores; somos a ligação estratégica entre as férteis planícies de Portugal e a procura dos mercados. A nossa Edição 2026 marca um momento importante de eficiência.",
       "global_reach_title": "Alcance Global",
       "global_reach_desc": "Estrategicamente localizados para atender à Europa continental com rapidez e segurança.",
       "quality_assurance_title": "Qualidade Assegurada",

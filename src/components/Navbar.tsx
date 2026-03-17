@@ -27,7 +27,7 @@ export default function Navbar({ dictionary, lang }: { dictionary: any, lang: st
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full px-6 lg:px-20 py-4 transition-all duration-300
+      className={`fixed top-0 left-0 right-0 z-50 w-full px-6 lg:px-20 py-4 transition-all duration-300
         ${scrolled
           ? 'bg-background-dark/90 backdrop-blur-md border-b border-white/10'
           : 'bg-transparent border-b border-transparent'

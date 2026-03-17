@@ -22,7 +22,7 @@ export default async function About({
             <div className="absolute inset-0 bg-gradient-to-r from-background-dark via-background-dark/60 to-transparent z-10"></div>
             <img 
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIT4ZO6mKDpKWDqT7_FD4uj4YJVbGjLEwqSXPOBSehmJ_612qpxo5AiBd0TORxpO7-f9Oekdp0IPTA3sJvAFswugpHW_T-MyItSeL1p8l0-fnbGdruOPHOpCOQwCMMD7-yzZTq5g5kyY9SlXZYUNelikujyu1ObONjeFNB4vVO6NLjYAgoTSrovbXUpgfB3RJK4Ayn5gTHTB3U5BySNrUlB9xwFWb1e26DlmAsyDHlwsAlzczWJUuBf9x2f2BRVZhDfTDCJp9MrWM" 
-                alt="Algerian landscape" 
+                alt="Portuguese landscape" 
                 className="w-full h-full object-cover"
             />
         </div>
@@ -89,7 +89,7 @@ export default async function About({
                     <div className="absolute -inset-4 bg-primary/20 blur-3xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
                     <img 
                         src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmN0BnHcD_lYuYAl1YCwB_-wzr5BQ-BIHG5h6WNAktbvfg-KoUk-2leNOBgFGt6X33uAYuVzXYlEvX7pC9HmPZ8g1BnKdPHOltid0vXkXBeFENH6KI2nH3lcBZgWaIfqvwbJMlKQLby2bOcKn8LTmohqo61BDddNTqcCs4PY403AFJ4ViORgcX5XTlWV1rHHlXDHSD5c9XpWG_rnVBmme73WUsgUzUbuz6_zsxKOvcNTJIVZR_oTPPsxg3372tYzmAftYzrXvvRsw" 
-                        alt="Premium Algerian produce" 
+                        alt="Premium Portuguese produce" 
                         className="relative rounded-2xl w-full h-[500px] object-cover border border-white/10 shadow-2xl"
                     />
                     <div className={`absolute bottom-6 ${isRtl ? 'left-6 border-r-4 border-r-primary' : 'right-6 border-l-4 border-l-primary'} bg-black/40 backdrop-blur-md p-6 rounded-xl`}>

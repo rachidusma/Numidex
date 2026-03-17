@@ -7,11 +7,11 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Bringing the Best of Algeria to the World",
+    "title": "Bringing the Best of Portugal to the World",
     "title_part1": "CONNECTING",
-    "title_part2": "ALGERIA",
+    "title_part2": "PORTUGAL",
     "title_part3": "TO THE WORLD",
-    "subtitle": "Connecting global markets with the finest sustainable produce from the heart of Algeria's fertile lands.",
+    "subtitle": "Connecting global markets with the finest sustainable produce from the heart of Portugal's fertile lands.",
     "badge": "Now Exporting 2026 Edition",
     "cta": "Contact Us",
     "cta_products": "Explore Our Catalog",
@@ -22,9 +22,9 @@
         "hero": {
             "since": "Since 2021",
             "title_prefix": "Connecting",
-            "title_highlight": "Algeria",
+            "title_highlight": "Portugal",
             "title_suffix": "to the World",
-            "description": "Bridging the gap between premium Algerian agricultural terroir and international markets with excellence, integrity, and logistical mastery.",
+            "description": "Bridging the gap between premium Portuguese agricultural terroir and international markets with excellence, integrity, and logistical mastery.",
             "cta_primary": "Explore Our Story",
             "cta_secondary": "View Portfolio"
         },
@@ -32,9 +32,9 @@
             "title": "Mission & Vision",
             "subtitle": "Our Purpose",
             "mission_title": "Our Mission",
-            "mission_content": "To showcase the richness of Algerian terroir to the global market through sustainable export practices, empowering local farmers while ensuring global food security.",
+            "mission_content": "To showcase the richness of Portuguese terroir to the global market through sustainable export practices, empowering local farmers while ensuring global food security.",
             "vision_title": "Our Vision",
-            "vision_content": "To become the leading bridge for premium Algerian agricultural products worldwide, recognized for quality, reliability, and innovation by 2030.",
+            "vision_content": "To become the leading bridge for premium Portuguese agricultural products worldwide, recognized for quality, reliability, and innovation by 2030.",
             "stat_label": "Organic Sourcing"
         },
         "values": {
@@ -43,7 +43,7 @@
             "items": [
                 {
                     "title": "Uncompromising Quality",
-                    "description": "We adhere to the highest international food safety and quality standards, ensuring every product represents the best of Algeria."
+                    "description": "We adhere to the highest international food safety and quality standards, ensuring every product represents the best of Portugal."
                 },
                 {
                     "title": "Full Transparency",
@@ -58,7 +58,7 @@
         "history": {
             "title": "Our Journey Towards 2026",
             "subtitle": "The Evolution",
-            "description": "Founded with a passion for Algerian agriculture, Numidex has rapidly expanded its footprint. Our upcoming \"2026 Edition\" marks a significant milestone in our expansion into high-tech sustainable packaging and direct-to-retail supply chains in Europe and the Americas.",
+            "description": "Founded with a passion for Portuguese agriculture, Numidex has rapidly expanded its footprint. Our upcoming \"2026 Edition\" marks a significant milestone in our expansion into high-tech sustainable packaging and direct-to-retail supply chains in Europe and the Americas.",
             "timeline": [
                 {
                     "year": "2021",
@@ -80,7 +80,7 @@
         "global_reach": {
             "title": "Global Reach",
             "subtitle": "International Presence",
-            "description": "Headquartered in Algiers, our operational network spans across continents, ensuring fresh Algerian produce is never far from your table.",
+            "description": "Headquartered in Lisbon, our operational network spans across continents, ensuring fresh Portuguese produce is never far from your table.",
             "regions": [
                 {
                     "name": "Europe",
@@ -92,7 +92,7 @@
                 },
                 {
                     "name": "Middle East",
-                    "description": "Strategic distribution centers in Dubai and Jeddah."
+                    "description": "Strategic distribution centers in Algiers and Jeddah."
                 }
             ],
             "serving_label": "Serving 25+ Countries Worldwide"
@@ -100,7 +100,7 @@
     },
   "products": {
     "title": "Our Product Categories",
-    "description": "NUMIDEX is an Algerian company specializing in the export of agricultural and agri-food products, specifically fruits, vegetables, and dates. Our ambition is to connect Algerian expertise to international markets through responsible, structured, and professional trade.",
+    "description": "NUMIDEX is an Portuguese company specializing in the export of agricultural and agri-food products, specifically fruits, vegetables, and dates. Our ambition is to connect Portuguese expertise to international markets through responsible, structured, and professional trade.",
     "discover_more": "Discover More",
     "showing_of": "Showing {count} of {total} collections",
     "fruits": "Fruits",
@@ -123,7 +123,7 @@
     },
     "price": {
       "title": "Competitive Pricing",
-      "desc": "Direct sourcing from Algerian producers for best wholesale rates."
+      "desc": "Direct sourcing from Portuguese producers for best wholesale rates."
     }
   },
   "process": {
@@ -141,7 +141,7 @@
   },
   "contact_cta": {
     "title": "Ready to scale your supply chain?",
-    "subtitle": "Partner with Algeria's most reliable export network for the 2026 season.",
+    "subtitle": "Partner with Portugal's most reliable export network for the 2026 season.",
     "button": "Request Pricing Now"
   },
   "contact": {
@@ -181,7 +181,7 @@
       "description": "Strategically positioned hubs to facilitate rapid agricultural export and logistics across continents.",
       "offices": [
         {
-          "city": "Algiers, DZ",
+          "city": "Lisbon, PT",
           "tag": "Headquarters",
           "desc": "Our primary sourcing center and operational hub for premium agricultural products in North Africa."
         },
@@ -191,7 +191,7 @@
           "desc": "A key node in our expanding network, facilitating direct trade relationships within the Qatar market."
         },
         {
-          "city": "Dubai, UAE",
+          "city": "Algiers, DZ",
           "tag": "Trade Gateway",
           "desc": "Strategically positioned for Middle Eastern trade, ensuring efficient delivery to Gulf nations."
         }
@@ -224,7 +224,7 @@
   "product_banner": {
     "subtitle": "Premium Logistics",
     "title": "Export Standards & Packaging",
-    "description": "Our logistics network ensures every product maintains its farm-fresh quality from Algeria to your destination. We utilize temperature-controlled reefer containers and palletized shipping solutions that meet GlobalGAP standards.",
+    "description": "Our logistics network ensures every product maintains its farm-fresh quality from Portugal to your destination. We utilize temperature-controlled reefer containers and palletized shipping solutions that meet GlobalGAP standards.",
     "features": {
       "certified": "GlobalGAP Certified",
       "cold_chain": "Cold Chain Logistics",
@@ -234,11 +234,11 @@
   },
   "footer": {
     "follow_us": "Follow Us",
-    "brand_desc": "Setting the standard in Algerian agricultural exports through innovation, transparency, and logistical excellence.",
+    "brand_desc": "Setting the standard in Portuguese agricultural exports through innovation, transparency, and logistical excellence.",
     "quick_links": "Quick Links",
     "global_contact_center": "Global Contact Center",
     "locations": {
-        "main_hub": "Main Export Hub, Industrial Zone, Algiers, Algeria"
+        "main_hub": "Main Export Hub, Industrial Zone, Lisbon, Portugal"
     },
     "copyright": "© {year} Numidex. All Rights Reserved. 2026 Edition Ready.",
     "privacy_policy": "Privacy Policy",
@@ -247,8 +247,8 @@
   "process_component": {
       "edition_release": "Edition Release",
       "benchmark_trust": "The Benchmark of Trust",
-      "title": "Algeria - Distribution & Export Experts",
-      "description": "At Numidex, we are more than just exporters; we are the strategic link between the fertile landscapes of Algeria and the demanding global markets. Our 2026 Edition marks a milestone in industrial scalability and logistical efficiency.",
+      "title": "Portugal - Distribution & Export Experts",
+      "description": "At Numidex, we are more than just exporters; we are the strategic link between the fertile landscapes of Portugal and the demanding global markets. Our 2026 Edition marks a milestone in industrial scalability and logistical efficiency.",
       "global_reach_title": "Global Reach",
       "global_reach_desc": "Strategically located to serve Europe, Africa, and the Middle East with rapid turnaround times.",
       "quality_assurance_title": "Quality Assurance",

@@ -7,11 +7,11 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Apporter le meilleur de l'Algérie au monde",
+    "title": "Apporter le meilleur du Portugal au monde",
     "title_part1": "CONNECTER",
-    "title_part2": "L'ALGÉRIE",
+    "title_part2": "LE PORTUGAL",
     "title_part3": "AU MONDE",
-    "subtitle": "Connecter les marchés mondiaux avec les meilleurs produits durables issus des terres fertiles d'Algérie.",
+    "subtitle": "Connecter les marchés mondiaux avec les meilleurs produits durables issus des terres fertiles du Portugal.",
     "badge": "Exportation Édition 2026",
     "cta": "Contactez-nous",
     "cta_products": "Explorer Notre Catalogue",
@@ -22,9 +22,9 @@
         "hero": {
             "since": "Depuis 2021",
             "title_prefix": "Connecter",
-            "title_highlight": "l'Algérie",
+            "title_highlight": "le Portugal",
             "title_suffix": "au Monde",
-            "description": "Combler le fossé entre le terroir agricole algérien de qualité supérieure et les marchés internationaux avec excellence, intégrité et maîtrise logistique.",
+            "description": "Combler le fossé entre le terroir agricole portugais de qualité supérieure et les marchés internationaux avec excellence, intégrité et maîtrise logistique.",
             "cta_primary": "Découvrir Notre Histoire",
             "cta_secondary": "Voir le Portfolio"
         },
@@ -32,9 +32,9 @@
             "title": "Mission & Vision",
             "subtitle": "Notre Objectif",
             "mission_title": "Notre Mission",
-            "mission_content": "Mettre en valeur la richesse du terroir algérien sur le marché mondial grâce à des pratiques d'exportation durables, en autonomisant les agriculteurs locaux tout en assurant la sécurité alimentaire mondiale.",
+            "mission_content": "Mettre en valeur la richesse du terroir portugais sur le marché mondial grâce à des pratiques d'exportation durables, en autonomisant les agriculteurs locaux tout en assurant la sécurité alimentaire mondiale.",
             "vision_title": "Notre Vision",
-            "vision_content": "Devenir le pont principal pour les produits agricoles algériens de première qualité dans le monde entier, reconnu pour la qualité, la fiabilité et l'innovation d'ici 2030.",
+            "vision_content": "Devenir le pont principal pour les produits agricoles portugais de première qualité dans le monde entier, reconnu pour la qualité, la fiabilité et l'innovation d'ici 2030.",
             "stat_label": "Approvisionnement Bio"
         },
         "values": {
@@ -43,7 +43,7 @@
             "items": [
                 {
                     "title": "Qualité Sans Compromis",
-                    "description": "Nous adhérons aux normes internationales de sécurité alimentaire et de qualité les plus élevées, garantissant que chaque produit représente le meilleur de l'Algérie."
+                    "description": "Nous adhérons aux normes internationales de sécurité alimentaire et de qualité les plus élevées, garantissant que chaque produit représente le meilleur du Portugal."
                 },
                 {
                     "title": "Transparence Totale",
@@ -58,7 +58,7 @@
         "history": {
             "title": "Notre Voyage Vers 2026",
             "subtitle": "L'Évolution",
-            "description": "Fondée avec une passion pour l'agriculture algérienne, Numidex a rapidement étendu son empreinte. Notre prochaine « Édition 2026 » marque une étape importante dans notre expansion vers des emballages durables de haute technologie et des chaînes d'approvisionnement directes au détail en Europe et dans les Amériques.",
+            "description": "Fondée avec une passion pour l'agriculture portugaise, Numidex a rapidement étendu son empreinte. Notre prochaine « Édition 2026 » marque une étape importante dans notre expansion vers des emballages durables de haute technologie et des chaînes d'approvisionnement directes au détail en Europe et dans les Amériques.",
             "timeline": [
                 {
                     "year": "2021",
@@ -80,7 +80,7 @@
         "global_reach": {
             "title": "Portée Mondiale",
             "subtitle": "Présence Internationale",
-            "description": "Basé à Alger, notre réseau opérationnel s'étend sur plusieurs continents, garantissant que les produits frais algériens ne sont jamais loin de votre table.",
+            "description": "Basé à Lisbonne, notre réseau opérationnel s'étend sur plusieurs continents, garantissant que les produits frais portugais ne sont jamais loin de votre table.",
             "regions": [
                 {
                     "name": "Europe",
@@ -92,7 +92,7 @@
                 },
                 {
                     "name": "Moyen-Orient",
-                    "description": "Centres de distribution stratégiques à Dubaï et Djeddah."
+                    "description": "Centres de distribution stratégiques à Alger et Djeddah."
                 }
             ],
             "serving_label": "Desservant 25+ Pays dans le Monde"
@@ -100,7 +100,7 @@
     },
   "products": {
     "title": "Nos catégories de produits",
-    "description": "NUMIDEX est une entreprise algérienne spécialisée dans l'exportation de produits agricoles et agroalimentaires, spécifiquement les fruits, légumes et dattes. Notre ambition est de connecter l'expertise algérienne aux marchés internationaux à travers un commerce responsable, structuré et professionnel.",
+    "description": "NUMIDEX est une entreprise portugaise spécialisée dans l'exportation de produits agricoles et agroalimentaires, spécifiquement les fruits, légumes et dattes. Notre ambition est de connecter l'expertise portugaise aux marchés internationaux à travers un commerce responsable, structuré et professionnel.",
     "discover_more": "Découvrir plus",
     "showing_of": "Affichage de {count} sur {total} collections",
     "fruits": "Fruits",
@@ -123,7 +123,7 @@
     },
     "price": {
       "title": "Prix Compétitifs",
-      "desc": "Approvisionnement direct auprès des producteurs algériens."
+      "desc": "Approvisionnement direct auprès des producteurs portugais."
     }
   },
   "process": {
@@ -141,7 +141,7 @@
   },
   "contact_cta": {
     "title": "Prêt à faire évoluer votre chaîne d'approvisionnement ?",
-    "subtitle": "Associez-vous au réseau d'exportation le plus fiable d'Algérie pour la saison 2026.",
+    "subtitle": "Associez-vous au réseau d'exportation le plus fiable du Portugal pour la saison 2026.",
     "button": "Demandez un devis maintenant"
   },
   "contact": {
@@ -181,7 +181,7 @@
       "description": "Hubs stratégiquement positionnés pour faciliter l'exportation agricole rapide et la logistique à travers les continents.",
       "offices": [
         {
-          "city": "Alger, DZ",
+          "city": "Lisbonne, PT",
           "tag": "Siège Social",
           "desc": "Notre principal centre d'approvisionnement et hub opérationnel pour les produits agricoles premium en Afrique du Nord."
         },
@@ -191,7 +191,7 @@
           "desc": "Un nœud clé dans notre réseau en expansion, facilitant les relations commerciales directes sur le marché qatari."
         },
         {
-          "city": "Dubaï, UAE",
+          "city": "Alger, DZ",
           "tag": "Portail Commercial",
           "desc": "Positionné stratégiquement pour le commerce au Moyen-Orient, assurant une livraison efficace vers les pays du Golfe."
         }
@@ -224,7 +224,7 @@
   "product_banner": {
     "subtitle": "Logistique Premium",
     "title": "Normes d'Exportation et Emballage",
-    "description": "Notre réseau logistique garantit que chaque produit conserve sa qualité fraîche de la ferme depuis l'Algérie jusqu'à votre destination. Nous utilisons des conteneurs frigorifiques à température contrôlée et des solutions d'expédition palettisées qui répondent aux normes GlobalGAP.",
+    "description": "Notre réseau logistique garantit que chaque produit conserve sa qualité fraîche de la ferme depuis le Portugal jusqu'à votre destination. Nous utilisons des conteneurs frigorifiques à température contrôlée et des solutions d'expédition palettisées qui répondent aux normes GlobalGAP.",
     "features": {
       "certified": "Certifié GlobalGAP",
       "cold_chain": "Logistique de Chaîne du Froid",
@@ -234,11 +234,11 @@
   },
   "footer": {
     "follow_us": "Suivez-nous",
-    "brand_desc": "Établir la norme dans les exportations agricoles algériennes par l'innovation, la transparence et l'excellence logistique.",
+    "brand_desc": "Établir la norme dans les exportations agricoles portugaises par l'innovation, la transparence et l'excellence logistique.",
     "quick_links": "Liens Rapides",
     "global_contact_center": "Centre de Contact Mondial",
     "locations": {
-        "main_hub": "Hub Principal d'Exportation, Zone Industrielle, Alger, Algérie"
+        "main_hub": "Hub Principal d'Exportation, Zone Industrielle, Lisbonne, Portugal"
     },
     "copyright": "© {year} Numidex. Tous droits réservés. Édition 2026 Prête.",
     "privacy_policy": "Politique de Confidentialité",
@@ -247,8 +247,8 @@
   "process_component": {
       "edition_release": "Sortie de l'Édition",
       "benchmark_trust": "La Référence de Confiance",
-      "title": "Algérie - Experts en Distribution & Exportation",
-      "description": "Chez Numidex, nous sommes plus que de simples exportateurs ; nous sommes le lien stratégique entre les paysages fertiles d'Algérie et les marchés mondiaux exigeants. Notre Édition 2026 marque une étape importante dans l'évolutivité industrielle et l'efficacité logistique.",
+      "title": "Portugal - Experts en Distribution & Exportation",
+      "description": "Chez Numidex, nous sommes plus que de simples exportateurs ; nous sommes le lien stratégique entre les paysages fertiles du Portugal et les marchés mondiaux exigeants. Notre Édition 2026 marque une étape importante dans l'évolutivité industrielle et l'efficacité logistique.",
       "global_reach_title": "Portée Mondiale",
       "global_reach_desc": "Stratégiquement situé pour servir l'Europe, l'Afrique et le Moyen-Orient avec des délais d'exécution rapides.",
       "quality_assurance_title": "Assurance Qualité",
