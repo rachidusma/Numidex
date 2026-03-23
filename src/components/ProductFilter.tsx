@@ -74,7 +74,7 @@ export default function ProductFilter({ categories, dictionary }: ProductFilterP
 
       <div className="pt-6 border-t border-border-dark">
         <a 
-          href="/Catalogue Produits Numidex NV SMALL.pdf" 
+          href="/Catalogue Produits NUMIDEX SMALL SIZE.pdf" 
           download
           className="w-full flex items-center justify-center gap-2 rounded-lg bg-neutral-dark border border-border-dark py-3 text-sm font-bold text-white hover:bg-slate-700 transition-colors"
         >
