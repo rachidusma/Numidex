@@ -3,7 +3,8 @@ import prisma from '../lib/prisma'
 import { i18n } from '../i18n-config'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.numidex.com'
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.numidexlda.com'
+
 
   // Fetch all products and categories to generate dynamic routes
   const [products, categories] = await Promise.all([
